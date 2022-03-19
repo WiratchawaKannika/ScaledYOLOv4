@@ -33,8 +33,8 @@ def train(hyp, opt, device, tb_writer=None):
     log_dir = Path(tb_writer.log_dir) if tb_writer else Path(opt.logdir) / 'evolve'  # logging directory
     wdir = str(log_dir / 'weights') + os.sep  # weights directory
     os.makedirs(wdir, exist_ok=True)
-    last = wdir + 'last.pt'
-    best = wdir + 'best.pt'
+    last = wdir + 'ModelR1_Prostate_v4p5_last.pt'
+    best = wdir + 'ModelR1_Prostate_v4p5_best.pt'
     results_file = str(log_dir / 'results.txt')
     epochs, batch_size, total_batch_size, weights, rank = \
         opt.epochs, opt.batch_size, opt.total_batch_size, opt.weights, opt.global_rank
