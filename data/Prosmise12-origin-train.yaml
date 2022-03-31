@@ -1,0 +1,8 @@
+#path: /media/tohn/SSD/ProstateCancer/prostate-train-yolo-origin/all_fold
+train: /media/tohn/SSD/ProstateCancer/prosmise12-train-yolov4/train/images
+val: /media/tohn/SSD/ProstateCancer/prosmise12-train-yolov4/val/images
+test: 
+# number of classes
+nc: 1
+# class names
+names: ['prostate'] 
