@@ -1,0 +1,8 @@
+#path to yolov4 dataset
+train: /media/tohn/SSD/DATA-Job-Company/Cervical-Spine-project/train-yolov4/train/images
+val: /media/tohn/SSD/DATA-Job-Company/Cervical-Spine-project/train-yolov4/val/images
+test: 
+# number of classes
+nc: 1
+# class names
+names: ['broken'] 
